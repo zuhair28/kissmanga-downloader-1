@@ -13,7 +13,7 @@ services:
       - java
       - -jar
       - /kissmanga-downloader.jar
-      - http://kissmanga.com/Manga/Shingeki-no-Kyojin
+      - https://kissmanga.com/Manga/Black-Jack/Vol-001-Chapter-001--Is-there-a-Doctor-?id=513312
   selenium:
     image: "elgalu/selenium:latest"
     ports:
